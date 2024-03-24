@@ -1,0 +1,8 @@
+:root {
+    --bg-color: #1d3557;
+}
+
+header,
+footer {
+    background-color: var(--bg-color);
+}

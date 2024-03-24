@@ -42,7 +42,7 @@ document.getElementById("comparisonBtn").onclick = function () {
     }
 }
 
-// id else if statement
+// if else if statement
 document.getElementById("ifElseBtn").onclick = function () {
     let marks = prompt("Please Enter Your Total Marks")
     if (marks > 100) {
@@ -92,15 +92,15 @@ document.getElementById("testingBtn").onclick = function () {
         document.getElementById("inputDiv").innerHTML = `Age = ${age} <br> Weight = ${weight} <br> BMI = Age + Weight`;
         document.getElementById("outputDiv").innerHTML = "<span class = 'text-success fw-bold'>You are an Underweight Teen</span>"
     }
-    else if (age <= 32 && weight <= 60) {
+    else if (age <= 32 && weight <= 70) {
         document.getElementById("inputDiv").innerHTML = `Age = ${age} <br> Weight = ${weight} <br> BMI = Age + Weight`;
         document.getElementById("outputDiv").innerHTML = "<span class = 'text-success fw-bold'>You are a Healthy Youngman</span>"
     }
-    else if (age <= 42 && weight <= 75) {
+    else if (age <= 42 && weight <= 85) {
         document.getElementById("inputDiv").innerHTML = `Age = ${age} <br> Weight = ${weight} <br> BMI = Age + Weight`;
         document.getElementById("outputDiv").innerHTML = "<span class = 'text-info fw-bold'>You are a Fatty man </span>"
     }
-    else if (age <= 60 && weight <= 80) {
+    else if (age <= 60 && weight <= 100) {
         document.getElementById("inputDiv").innerHTML = `Age = ${age} <br> Weight = ${weight} <br> BMI = Age + Weight`;
         document.getElementById("outputDiv").innerHTML = "<span class = 'text-warning fw-bold'>You are an Overweight Oldman</span>"
     }
